@@ -93,7 +93,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -117,6 +117,94 @@ h1 {
     float: right;
     width: 125px;
     margin-top: 20px
+}
+
+.contactinfo {
+    text-align: center;
+    padding: 1rem;
+}
+
+.contactinfo p {
+    margin: 1px;
+    padding: 1px;
+}
+
+.mass {
+    display: flex;
+}
+
+form {
+    padding-top: 0;
+    width: 400px;
+    /* margin: 0 auto; */
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1px;
+    padding: 1px;
+    border: none;
+}
+
+.purpose {
+    display: flex;
+    align-items: flex-start;
+}
+
+.purpose p {
+    max-width: 50px; 
+    text-align: left;
+    padding-right: 70px;
+    margin: 0;
+    align-self: center;
+}
+.purpose-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.purpose-piece {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+label {
+    text-align: left;
+    /* padding-right: 1rem; */
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: .5rem;
+    background-color: var(--seconday-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: lightblue;
 }
 
 .history {
@@ -146,6 +234,10 @@ h1 {
     align-items: center;
 }
 
+.two {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .aay h2 {
     text-align: center;
     grid-column: 1 / -1;
@@ -153,6 +245,7 @@ h1 {
 
 .aay img {
     width: 160px;
+    height: auto;
 }
 
 footer {

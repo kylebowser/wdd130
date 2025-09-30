@@ -1,0 +1,107 @@
+<!-- 15 September 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Z-Rafting</title>
+    <meta name="description" content="Kyle Bowser, WDD130, Contact Us page of our rafting website">
+    <meta name="author" content="Kyle Bowser">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-boat.png" alt="Logo" width="200">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contactinfo">
+            <h1>Z-Rafting</h1>
+            <p>743 West 700 S</p>
+            <p>Salt Lake City UT</p>
+            <p>+1 (123) 456-7890</p>
+            <p>info@zrafting.com</p>
+        </div>
+        <div class="mass">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d755.5957222096409!2d-111.91280186502466!3d40.7536026378819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759200300743!5m2!1sen!2sus"
+                    width="400" height="400" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                    <div class="purpose">
+                        <p>Message Purpose</p>
+                        <div class="purpose-buttons">
+                            <div class="purpose-piece">
+                                <input type="radio" id="gi" name="gi">
+                                <label for="gi">General Inquiry</label>
+                            </div>
+                            <div class="purpose-piece">
+                                <input type="radio" id="rq" name="rq">
+                                <label for="rq">Reservation Question</label>
+                            </div>
+                            <div class="purpose-piece">
+                                <input type="radio" id="ws" name="ws">
+                                <label for="ws">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Type here"></textarea>
+                    <div class="form-item column1">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <button type="submit">Get In Touch!</button>
+            </form>
+        </div>
+        <section class="aay two">
+            <h2>We Are Here To Serve You</h2>
+            <figure>
+                <img src="images/employee4.jpg" alt="Employee 1">
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Employee 2">
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Employee 3">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 | Z-Rafting | Kyle Bowser</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
