@@ -113,7 +113,7 @@ nav, p, section, article {
     padding: 0px;
 }
 
-.hero button {
+.hero a {
     position: absolute;
     bottom: 15%;
     right: 220px;
@@ -121,12 +121,16 @@ nav, p, section, article {
     height: 70px;
     font-size: 30px;
     background-color: var(--accent2-color);
+    text-decoration: none;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 55px;
 }
 
-.hero button a {
+/* .hero button a {
     text-decoration: none;
     color: var(--primary-color)
-}
+} */
 
 .hero article img {
     float: right;
